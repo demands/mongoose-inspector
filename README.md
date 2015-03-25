@@ -19,7 +19,9 @@ catSchema = {
   "description": "Cat",
   "type": "object",
   "properties": {
+    "_id": { "type": "string" }
     "name": { "type": "string" }
+    "__v": { "type": "string" }
   }
 }
 */
