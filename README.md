@@ -19,9 +19,9 @@ catSchema = {
   "description": "Cat",
   "type": "object",
   "properties": {
-    "_id": { "type": "string" }
+    "_id": { "type": "string", 'pattern': '^[a-fA-F0-9]{24}$' }
     "name": { "type": "string" }
-    "__v": { "type": "string" }
+    "__v": { "type": "number" }
   }
 }
 */
